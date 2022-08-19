@@ -60,7 +60,7 @@ sudo mv /tmp/eksctl $dir
 echo -e "$Cyan \n Begin install kube $Color_Off"
 sudo curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
 
-echo -e "$Cyan \n Create priviliges $Color_Off"
+echo -e "$Cyan \n Change priviliges $Color_Off"
 sudo chmod +x kubectl
      >&2
 sleep 2
