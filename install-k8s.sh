@@ -16,10 +16,6 @@ Yellow='\033[0;33m'       # Yellow
 Purple='\033[0;35m'       # Purple
 Cyan='\033[0;36m'         # Cyan
 
-# Names
-f_name="Maksim"
-l_name="Kulikov"
-
    exec 2>logs+errors
 echo -e "$Cyan \n Install root priviliges for selected user? $Color_Off"
   echo "1 - yes, 2 - no"
